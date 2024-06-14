@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-	int n, a, b, c, i;
+	int num, a, b, c, i;
 	cout<<"SERIE FINOBACCI"<<endl;
-	cout<<"Introduzca el tope: ";
-	cin>>n;
+	cout<<"Introduzca el tope de la serie: ";
+	cin>>num;
 	i=1;
 	a=0;
 	b=1;
