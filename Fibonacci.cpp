@@ -9,7 +9,9 @@ int main(){
 	cin>>num;
 	i=1;
 	a=0;
+	// apoyo para copiar el número anterior de la serie
 	b=1;
+	// segundo apoyo
 	while (i<=num){
 		cout<<a<<endl;
 		c=a+b;
