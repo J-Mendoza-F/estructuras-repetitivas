@@ -5,9 +5,11 @@ ALUMNO: Jair Mark Mendoza Flores
 CÓDIGO: 2024-119004
 */
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 int main(){
+	SetConsoleOutputCP(CP_UTF8);
 	int num, a, b, c, i;
 	// i es un iterador para que el "mientras" (while) no se repita infinitamente
 	cout<<"SERIE FINOBACCI"<<endl;
@@ -23,8 +25,7 @@ int main(){
 		c=a+b;
 		a=b;
 		b=c;
-		i++;
+		i=i+1;
 	}
 	return 0;
-	
 }
